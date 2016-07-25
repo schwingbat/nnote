@@ -1,5 +1,5 @@
 {
-  "name": "nn",
+  "name": "nnote",
   "version": "0.0.1",
   "description": "No-nonsense notes in Node!",
   "main": "index.js",
@@ -8,7 +8,10 @@
   },
   "author": "Tony McCoy <toonytony@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "colors": "^1.1.2"
+  },
+  "bin": {
+    "nn": "./index.js"
   }
 }
