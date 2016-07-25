@@ -2,7 +2,7 @@
 
 nn.js is a quick and simple command line utility to take and keep track of notes with as little friction as possible. I usually have a terminal open, so for me the best way to do this is with a really short command. I typed in `nn` and it didn't do anything. Now it does!
 
-Basically, you put your favorite editor and the path you want to keep your notes in in the configuration file
+`nn` will launch YOUR favorite editor, any of which should work as long as it's openable by a terminal command.
 
 ## Install
 
@@ -11,7 +11,7 @@ First, make sure you have a recent version of Node.js. I'm using `const`, `let` 
 Then to install `nn` itself:
 
 ```bash
-npm install -g git+https://git@github.com/vantaure/node-note.git
+npm install -g git+https://git@github.com/vantaure/nnote.git
 ```
 
 Then run `nn` once to create the configuration file in your home directory, open that file and put in your desired settings and BAM! You'll never again forget an important thought in the year between opening Evernote and it finally letting you type.
