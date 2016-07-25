@@ -4,6 +4,10 @@ nnote is a quick and simple command line utility to take and keep track of notes
 
 `nn` will launch YOUR favorite editor, any of which should work as long as it's openable by a terminal command.
 
+## Known Issues
+
+- using `nn new <filename>` with an existing `filename` will simply overwrite your previous note without warning. The next version will present a prompt asking the user whether they want to open the existing note or overwrite it. For now, use `nn list` first if you're not sure if you're using an existing filename.
+
 ## Install
 
 First, make sure you have a recent version of Node.js. I'm using `const`, `let` and arrow functions (`=>`) from ES6 in this module, so whichever version you use has to support those at least. I'm on 6.2.2 as of this writing.
@@ -11,14 +15,14 @@ First, make sure you have a recent version of Node.js. I'm using `const`, `let` 
 Then to install `nn` itself:
 
 ```bash
-npm install -g git+https://git@github.com/vantaure/nnote.git
+npm install -g nnote
 ```
 
 Then run `nn` once to create the configuration file in your home directory, open that file and put in your desired settings and BAM! You'll never again forget an important thought in the year between opening Evernote and it finally letting you type.
 
 ## Commands
 
-The output of `nn help` will assist here:
+The output of `nn help` is below. Words between `<these>` are values that you supply.
 
 ```
 nn new <filename>       => Creates a new note with the (optional) specified filename.
