@@ -1,0 +1,14 @@
+{
+  "name": "nn",
+  "version": "0.0.1",
+  "description": "Command line utility for quickly taking notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tony McCoy <toonytony@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "colors": "^1.1.2"
+  }
+}
