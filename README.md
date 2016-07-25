@@ -1,6 +1,6 @@
-# nn.js v0.0.2
+# nnote v0.0.2
 
-nn.js is a quick and simple command line utility to take and keep track of notes with as little friction as possible. I usually have a terminal open, so for me the best way to do this is with a really short command. I typed in `nn` and it didn't do anything. Now it does!
+nnote is a quick and simple command line utility to take and keep track of notes with as little friction as possible. I usually have a terminal open, so for me the best way to do this is with a really short command. I typed in `nn` and it didn't do anything. Now it does!
 
 `nn` will launch YOUR favorite editor, any of which should work as long as it's openable by a terminal command.
 

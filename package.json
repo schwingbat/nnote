@@ -8,6 +8,18 @@
   },
   "author": "Tony McCoy <toonytony@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "notes",
+    "notetaking",
+    "todo",
+    "organization",
+    "productivity",
+    "command line utility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vantaure/nnote"
+  },
   "dependencies": {
     "colors": "^1.1.2"
   },
